@@ -111,10 +111,10 @@ void postOrder( TreeNodePtr treePtr ){
 void printTree( TreeNodePtr treePtr ,int l){
    int i;
    if ( treePtr != NULL ) {  
-     printTree(treePtr->rightPtr);
+     printTree(treePtr->rightPtr,l+1);
      for(i=0;i<l;i++) printf("%5s"," ");
      printf("%5d\n",treePtr->data) ;  //print the value 
-    printTree(treePtr->leftPtr);
+    printTree(treePtr->leftPtr,l+1);
    
        
    }
