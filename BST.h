@@ -116,8 +116,6 @@ void printTree( TreeNodePtr treePtr ,int l){
      printf("%3d\n",treePtr->data) ;  //print the value 
     printTree(treePtr->leftPtr,l+1);
     
-    
-   
        
    }
 }
