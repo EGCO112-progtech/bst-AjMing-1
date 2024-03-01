@@ -113,7 +113,7 @@ void printTree( TreeNodePtr treePtr ,int l){
    if ( treePtr != NULL ) {  
      
      for(i=0;i<l;i++) printf("    ");
-     printf("%3d\n",treePtr->data) ;  //print the value 
+     printf("%2d\n",treePtr->data) ;  //print the value 
     
    
        
